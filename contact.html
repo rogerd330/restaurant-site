@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>Contact Us</title>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<style>
+		img {
+			width: 200px;
+		}
+		body {
+			background-color: #FFBA08;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		h1,h2,h3,h4,h5,h6 {
+			color: #6A040F;
+		}
+		.call-to-action {
+		    color: #fff;
+		    background-color: #D00000;
+		    padding: 5px;
+		    margin: 20px;
+		    text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome to the U of A Frontend Steakhouse</h1>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+
+	<h2>Contact Us</h2>
+	<form method="POST" action="https://webhook.site/0597b8c1-9ccd-421d-999a-8fb2609d61af">
+
+		<label for="firstName">First Name</label>
+		<input type="text" name="firstName" id="firstName" placeholder="John" required />
+		<br/>
+
+		<label for="lastName">Last Name</label>
+		<input type="text" name="lastName" id="lastName" placeholder="Doe" required />
+		<br/>
+
+		<label for="email">Email Address</label>
+		<input type="email" name="email" id="email" placeholder="you@email.com" required />
+		<br/>
+
+		<label for="phone">Telephone #</label>
+		<input type="tel" name="phone" id="phone" placeholder="123-456-7890" required />
+		<br/>
+
+		<label for="message">Message</label>
+		<textarea name="message" id="message" cols="30" rows="10" placeholder="How can we help you?"></textarea>
+		<br/>
+
+		<button>Contact Us</button>
+
+	</form>
+	
+</body>
+</html>
