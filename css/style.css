@@ -1,0 +1,17 @@
+img {
+	width: 200px;
+}
+body {
+	background-color: #FFBA08;
+	font-family: 'Josefin Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	color: #6A040F;
+}
+.call-to-action {
+    color: #fff;
+    background-color: #D00000;
+    padding: 5px;
+    margin: 20px;
+    text-decoration: none;
+}
