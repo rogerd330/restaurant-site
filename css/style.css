@@ -7,11 +7,121 @@ body {
 }
 h1,h2,h3,h4,h5,h6 {
 	color: #6A040F;
+	margin: 0 0 10px 0;
 }
 .call-to-action {
     color: #fff;
     background-color: #D00000;
-    padding: 5px;
+    padding: 10px 20px;
     margin: 20px;
     text-decoration: none;
 }
+
+/* Column Layouts */
+
+.col30 {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.col50 {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.col70 {
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+/* Product Page */
+
+img.hero {
+	width: 100%;
+}
+
+.divider {
+	border-right: 5px solid red;
+}
+
+.thumbnails {
+	padding: 0;
+}
+
+.thumbnails img {
+    width: 121px;
+}
+
+.thumbnails li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.thumbnails li:last-child {
+	margin-right: 0;
+}
+
+/* Shopping Cart */
+
+.cart {
+	width: 100%;
+    border-top: 2px solid #6A040F;
+    border-bottom: 2px solid #6A040F;
+    border-spacing: 0;
+}
+
+.cart thead {
+	border-top: 2px solid #6A040F;
+	background-color: #ca9308;
+}
+
+.cart thead th {
+	padding: 10px 0;
+	border-bottom: 2px solid #6A040F;
+}
+
+.cart tbody {
+	text-align: center;
+	background-color: #ffe090;
+}
+
+.cart tbody td {
+	padding: 15px 0;
+}
+
+.order-summary {
+	background-color: #ca9308;
+	padding: 20px;
+}
+
+.order-summary ul {
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+.order-summary li {
+	list-style: none;
+	padding: 10px 0;
+	color: #333;
+}
+
+.order-summary li span {
+	font-weight: bold;
+	color: #000;
+}
+
+.order-summary .call-to-action {
+	text-align: center;
+	display: block;
+	margin: 0;
+}
+
