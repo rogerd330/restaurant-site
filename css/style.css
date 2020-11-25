@@ -125,3 +125,15 @@ img.hero {
 	margin: 0;
 }
 
+
+/* Bootstrap Overrides */
+
+.btn-primary:hover, 
+.btn-primary {
+    color: #fff;
+    background-color: #D00000;
+    border-color: #D00000;
+}
+.btn-primary:hover {
+	background-color: #e00000;
+}
