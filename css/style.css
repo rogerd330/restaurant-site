@@ -55,15 +55,16 @@ img.hero {
 
 .thumbnails {
 	padding: 0;
+	margin-top: 15px;
 }
 
 .thumbnails img {
-    width: 121px;
+    width: 95px;
 }
 
 .thumbnails li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 11px;
 }
 
 .thumbnails li:last-child {
@@ -137,3 +138,24 @@ img.hero {
 .btn-primary:hover {
 	background-color: #e00000;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+
+	h1 {
+		font-size: 25px;
+    	text-align: center;
+    	margin-top: 20px;
+	}
+
+	.thumbnails img {
+		width: 85px;
+		margin-bottom: 15px;
+	}
+
+	.thumbnails li:nth-child(3n) {
+		margin-right: 0;
+	}
+}
+
